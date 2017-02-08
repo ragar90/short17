@@ -1,0 +1,38 @@
+{
+  "name":"short",
+  "author":"Edward Hotchkiss <edwardhotchkiss@me.com>",
+  "contributors":[
+    { "name": "Edward Hotchkiss", "email": "edwardhotchkiss@me.com" },
+    { "name": "Kevin Roth", "github": "http://github.com/thinkroth" },
+    { "name": "Chase Brammer", "github":"https://github.com/cbrammer" },
+    { "name": "Chris Lynch", "github":"https://github.com/lynchseattle" }
+  ],
+  "homepage": "http://edwardhotchkiss.github.com/short",
+  "description":"NodeJS URL Shortener backed by MongooseJS w/ Examples",
+  "version":"1.7.0",
+  "repository":{
+    "type":"git",
+    "url":"git://github.com/edwardhotchkiss/short.git"
+  },
+  "keywords":["short","url","shortener","tiny","uri","vanity","bit.ly"],
+  "main":"./lib/short",
+  "engines":{
+    "node":"0.8.x"
+  },
+  "dependencies":{
+    "mongoose":"3.3.1"
+  },
+  "devDependencies":{
+    "vows":"0.6.4"
+  },
+  "bugs": {
+    "url": "https://github.com/edwardhotchkiss/short/issues"
+  },
+  "licenses":[{
+    "type":"MIT",
+    "url":"http://github.com/edwardhotchkiss/short/LICENSE"
+  }],
+  "scripts":{
+    "test":"make test"
+  }
+}
